@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: 'nunito';
+}
+html{
+    scroll-behavior: smooth;
+}
+.container-fluid{
+    background-color:#274c77;
+}  
+.nav-link:hover{
+    color:#969694;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color:#7fceff;
+}
+.navbar-brand{
+    font-size: 40px;
+    font-weight: 800;
+}
+main{
+    position: relative;
+    z-index: 1;
+}
+
+.home-section{
+    position: relative;
+    overflow: hidden;
+    padding-top: 170px;
+    padding-bottom: 100px;
+
+}
+@media (max-width:767px){
+    .home-section{
+        padding-bottom: 70px;
+    }
+}
+.home-section.container{
+    position: relative;
+    z-index: 1;
+}
+.home-section .home-intro h6{
+    color:white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+@media (max-width:767px){
+    .home-section .home-intro h6{
+        margin:0 0 20px;
+    }
+}
+.home-section .home-intro h1{
+    color:white;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1;
+}
+@media (max-width:1200px){
+    .home-section .home-intro h1{
+        margin: 0 0 25px;
+        font-family: 60px;
+    }
+}
+.home-section .home-intro p{
+    color:white;
+    font-weight: 400;
+    font-size: 30px;
+}
+.home-section .home-intro p span{
+    color:#6096ba;
+    font-weight: 800;
+    font-size: 30px;
+}
+@media (max-width:1200px){
+    .home-section .home-intro p{
+        font-size: 18px;
+    }
+}
+.home-image{
+   
+    border-radius: 50%;
+    object-fit: cover;
+    position:relative;
+    z-index: -2;
+    text-align: right;
+
+}
+.home-image img{
+float: right;
+margin-top: -250px;
+margin-right: -450px;
+
+}
+@media (max-width:576px){
+    .home-image img{
+        justify-content: center;
+   
+    }
+    
+}
+#About{
+    padding:80px 0px;
+    color:black;
+ }
+ .about-col-1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ 
+ .row1{
+    flex-basis: 60%;
+ }
+ .row1 h1{
+    color:#969694;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+ }
+ @media (max-width:576px){
+    .row1 h1{
+       text-align: center;
+       margin-right: -160px;
+    }
+ }
+ .row1 p{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: justify;
+    overflow: hidden;
+    
+    
+ }
+ @media (max-width:576px){
+    .row1 p{
+        text-align: justify;
+        text-align: center;
+        font-size: 14px;
+        margin-right: -160px;
+    }
+ }
+ .column h1{
+    color:#969694;
+    font-size: 40px;
+    font-weight: bold;
+ }
+ .part{
+    background:#bde6ff;
+    font-size: 18px;
+    font-weight: 400;
+    color:#113e72
+ }
+ .part:hover{
+    background-color: #7fceff;
+    border-color:#113e72
+ }
+ .column-1 h1{
+     color: #969694;
+     font-size: 40px;
+     font-weight:bolder;
+ }
+
+ @media (max-width:576px){
+    .column h1{
+        text-align: center;
+    }
+    .column-1 h1{
+        text-align: center;
+    }
+    .column-2 h1{
+        text-align: center;
+    }
+ }
+ .card-body{
+    background: #bde6ff;
+ }
+ .card-body:hover{
+    background-color:#7fceff;
+ }
+ .card-body h2{
+    color: #134278;
+    font-weight:700;
+ }
+
+ .column-2 h1{
+    color:#969694 ;
+    font-size: 40px;
+     font-weight:bolder;
+ }
+ .row-1 h3{
+    color:#7fceff;
+    text-align: center;
+    font-weight:800 ;
+ }
+ .form-group{
+    width:50%;
+    border:0;
+    outline:none;
+    margin:10px;
+    font-size: 18px;
+    color:rgb(214, 196, 162);
+    font-weight: 500;
+    
+ }
+ 
+ .row-1 form{
+    margin-left: 450px;
+    margin-top: 50px;
+ }
+ @media (max-width:576px){
+    .row-1 form{
+     margin-left: -10px;
+     width:80%;
+    }
+ }
+ @media (max-width:800px){
+    .row-2 form{
+      margin-left:160px ;
+    
+      
+    }
+ }
+
+.form-group .form-control{
+    background-color: #c9eaff;
+
+}
+.form-group.form-control ::placeholder{
+    color: #274c77;
+}
+
+.social-icons{
+    font-size:x-large;
+}
+
+.footer{
+    padding: 50px ;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.footer p{
+    color: #6096ba;
+}
+
+
+  
+ 
+
+
+
+ 
+ 
+ 
